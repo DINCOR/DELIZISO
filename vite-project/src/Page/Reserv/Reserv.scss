@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-reserv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .header-block {
+        width: 1620px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            width: 162px;
+            height: auto;
+        }
+
+        .nav-reserv {
+            width: 50%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                color: #311f09;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+            .nav-text-orange {
+                color: #ff8a00;
+            }
+        }
+
+        .nav-right {
+            width: 200px;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .cart {
+                width: 70px;
+                height: 70px;
+                cursor: pointer;
+            }
+
+            .btn-login {
+                .btn {
+                    width: 112px;
+                    height: 50px;
+                    color: white;
+                    background: #3fa72f;
+                    border: none;
+                    border-radius: 133px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.main-reserv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .booking {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .booking-image {
+            width: 50%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+
+            .booking-circle {
+                width: 430px;
+                height: 850px;
+
+                img {
+                    width: auto;
+                    height: 824px;
+                }
+            }
+        }
+
+        .booking-form {
+            width: 50%;
+            height: 560px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1 {
+                color: #311f09;
+                font-family: 'Tinos', serif;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .booking-fields {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                .booking-field {
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+
+                    select {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        border-radius: 20px;
+                        outline: none;
+                        background: transparent;
+                        color: #311f09;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 20px;
+                        cursor: pointer;
+                        background: rgba(208, 204, 199, 0.2);
+                        color: #a0978c;
+                        padding-left: 1rem;
+                    }
+                }
+
+                .book-button {
+                    width: 100%;
+                    height: 80px;
+                    color: white;
+                    background: #ff8a00;
+                    border: none;
+                    border-radius: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 650px;
+    background: #311f09;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .header-block {
+        width: 1620px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-about {
+            width: 350px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .logo {
+                width: 160px;
+                height: auto;
+            }
+
+            p {
+                color: #e3e2e0;
+                font-size: 20px;
+                line-height: 1.8;
+            }
+
+            .footer-socials {
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+
+                .social-icon {
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #e3e2e0;
+                    border-radius: 100px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+
+        .footer-columns {
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-column {
+                width: 300px;
+                height: 330px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .footer-title {
+                    color: #ff8a00;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+
+                .footer-links {
+                    height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    a {
+                        color: #e3e2e0;
+                        font-size: 20px;
+                        text-decoration: none;
+                    }
+
+                    p {
+                        color: #e3e2e0;
+                        font-size: 20px;
+                        line-height: 1.8;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        p {
+            color: #e3e2e0;
+            font-size: 18px;
+        }
+    }
+}

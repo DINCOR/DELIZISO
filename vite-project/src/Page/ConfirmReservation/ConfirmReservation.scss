@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tinos:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-confirm {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header-block {
+        width: 1120px;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 162px;
+            height: auto;
+        }
+
+        .nav-right {
+            width: 250px;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .signin button {
+                width: 112px;
+                height: 50px;
+                background: #ff8a00;
+                color: white;
+                border-radius: 133px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            .login button {
+                width: 112px;
+                height: 50px;
+                background: #3fa72f;
+                color: white;
+                border-radius: 133px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.main-confirm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .confirm-layout {
+        width: 1120px;
+        height: 115vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h1 {
+            font-family: 'Tinos', serif;
+            font-size: 60px;
+            font-weight: 700;
+            color: #311f09;
+            text-align: center;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timer-banner {
+            width: 100%;
+            height: 75px;
+            background: rgba(138, 234, 255, 0.4);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-size: 16px;
+                color: #5c4529;
+            }
+        }
+
+        .content-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .form-section {
+                width: 500px;
+                height: 750px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #000;
+                    height: 50px;
+                }
+
+                .input-group {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 500px;
+
+                    input,
+                    .select-box,
+                    textarea {
+                        width: 100%;
+                        height: 60px;
+                        background: rgba(208, 204, 199, 0.2);
+                        border: none;
+                        border-radius: 15px;
+                        font-size: 16px;
+                        font-family: 'Poppins', sans-serif;
+                        color: #311f09;
+                        outline: none;
+                    }
+
+                    input::placeholder,
+                    textarea::placeholder {
+                        color: #a0978c;
+                    }
+
+                    .phone-row {
+                        width: 100%;
+                        height: 60px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .flag-box {
+                            width: 100px;
+                            height: 100%;
+                            background: rgba(208, 204, 199, 0.2);
+                            border-radius: 15px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            .flag {
+                                width: 36px;
+                                height: 36px;
+                            }
+                            .arrow {
+                                width: 15px;
+                                height: 15px;
+                                cursor: pointer;
+                            }
+                        }
+
+                        input {
+                            width: 380px;
+                        }
+                    }
+
+                    .select-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        span {
+                            color: #a0978c;
+                        }
+
+                        .arrow {
+                            width: 15px;
+                            height: 15px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    textarea {
+                        height: 120px;
+                        resize: none;
+                    }
+                }
+
+                .checkbox-row {
+                    width: 100%;
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    input {
+                        cursor: pointer;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 100px;
+                    }
+
+                    label {
+                        width: 90%;
+                        font-size: 14px;
+                        color: #311f09;
+                    }
+                }
+
+                .btn-confirm {
+                    width: 100%;
+                    height: 60px;
+                    background: #ff8a00;
+                    border: none;
+                    border-radius: 15px;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+
+            .info-section {
+                width: 500px;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .reservation-details {
+                    width: 100%;
+                    height: 250px;
+                    background: rgba(208, 204, 199, 0.1);
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .cont {
+                        width: 80%;
+                        height: 85%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        h2 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: #000;
+                        }
+
+                        .content {
+                            width: 100%;
+                            height: 250px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            justify-content: space-evenly;
+                            .row {
+                                width: 300px;
+                                display: flex;
+                                justify-content: space-between;
+
+                                img {
+                                    width: 24px;
+                                    height: 24px;
+                                }
+
+                                span {
+                                    width: 250px;
+                                    font-size: 16px;
+                                    color: #311f09;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .restaurant-info {
+                    width: 100%;
+                    height: 390px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    h2 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: #000;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        color: #5c4529;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 650px;
+    background: #311f09;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .header-block {
+        width: 1120px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-about {
+            width: 350px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                font-size: 18px;
+                color: #e3e2e0;
+                line-height: 1.6;
+            }
+
+            .footer-socials {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+
+                .social-icon {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #e3e2e0;
+                    border-radius: 50%;
+
+                    img {
+                        width: 25px;
+                    }
+                }
+            }
+        }
+
+        .footer-columns {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-column {
+                width: 200px;
+                height: 330px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .footer-title {
+                    color: #ff8a00;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                .footer-links {
+                    height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    a,
+                    p {
+                        font-size: 18px;
+                        color: #e3e2e0;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        p {
+            font-size: 16px;
+            color: #a08d76;
+        }
+    }
+}

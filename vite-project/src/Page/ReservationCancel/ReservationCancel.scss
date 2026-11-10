@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tinos:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-confirm {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header-block {
+        width: 1120px;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 162px;
+            height: auto;
+        }
+
+        .nav-right {
+            width: 250px;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .signin button {
+                width: 112px;
+                height: 50px;
+                background: #ff8a00;
+                color: white;
+                border-radius: 133px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            .login button {
+                width: 112px;
+                height: 50px;
+                background: #3fa72f;
+                color: white;
+                border-radius: 133px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.cancel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .top-banner {
+        width: 100%;
+        height: 30vh;
+        background: #ff8a00;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .banner {
+            width: 1120px;
+            height: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 1.2;
+                width: 65%;
+                font-family: 'Tinos', serif;
+            }
+
+            .booking {
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+
+    .cancel-wrap {
+        width: 1120px;
+        height: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .cancel-cont {
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .circle {
+                width: 390px;
+                height: 390px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .info {
+                width: 60%;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h2 {
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #311f09;
+                }
+
+                .rows {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .row {
+                        width: 100%;
+                        display: flex;
+                        align-items: start;
+                        justify-content: space-between;
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+
+                        span {
+                            font-size: 20px;
+                            color: #5c4529;
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-end;
+
+            .cancel-btn {
+                width: 400px;
+                height: 60px;
+                background: #ff3838;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                font-size: 18px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 650px;
+    background: #311f09;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .header-block {
+        width: 1120px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-about {
+            width: 350px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                font-size: 18px;
+                color: #e3e2e0;
+                line-height: 1.6;
+            }
+
+            .footer-socials {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+
+                .social-icon {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #e3e2e0;
+                    border-radius: 50%;
+
+                    img {
+                        width: 25px;
+                    }
+                }
+            }
+        }
+
+        .footer-columns {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-column {
+                width: 200px;
+                height: 330px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .footer-title {
+                    color: #ff8a00;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                .footer-links {
+                    height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    a,
+                    p {
+                        font-size: 18px;
+                        color: #e3e2e0;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        p {
+            font-size: 16px;
+            color: #a08d76;
+        }
+    }
+}
